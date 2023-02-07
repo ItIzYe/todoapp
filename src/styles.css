@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap";
+
+
+.done{
+  text-decoration: line-through;
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+.link-light {
+  color: #f8f9fa!important;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+
+
